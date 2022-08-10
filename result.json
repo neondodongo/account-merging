@@ -1,0 +1,27 @@
+[
+    {
+        "applications": [
+            1,
+            2,
+            3
+        ],
+        "emails": [
+            "a@gmail.com",
+            "a@yahoo.com",
+            "b@gmail.com"
+        ],
+        "name": "A"
+    },
+    {
+        "applications": [
+            1,
+            5
+        ],
+        "emails": [
+            "c@gmail.com",
+            "d@gmail.com",
+            "x@gmail.com"
+        ],
+        "name": "C"
+    }
+]
