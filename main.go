@@ -48,13 +48,13 @@ func main() {
 	if writeTo {
 		file, err := os.Create(resultJsonFilename)
 		if err != nil {
-			log.Error().Err(err).Msgf("failed to create file %s", writeTo)
+			log.Error().Err(err).Msgf("failed to create file %s", resultJsonFilename)
 		}
 
 		defer file.Close()
 
 		if _, err := file.Write(res); err != nil {
-			log.Error().Err(err).Msgf("failed to write to file %s", writeTo)
+			log.Error().Err(err).Msgf("failed to write to file %s", resultJsonFilename)
 		}
 	}
 
